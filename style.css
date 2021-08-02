@@ -1,0 +1,94 @@
+body{
+    background-color:cornsilk
+}
+
+.gallery img{
+    
+   width: 100% 
+}
+
+h2{
+    color: currentColor;
+    font-display: swap;
+    font-style:normal;
+    
+}
+h3{
+    color: darkgray;
+    font-style: italic;
+}
+
+h4{
+    color: darkgray;
+    font-style: italic;    
+    
+}
+
+p{
+    color: currentColor;
+    text-decoration-color: currentColor;
+    font-style: oblique;
+    font-feature-settings: normal;
+    text-align: inherit;
+}
+
+
+#menu{
+    
+    background-color: brown;
+    height: 40px;
+    width: 100%;
+    padding-top: 15px;
+    
+}
+
+#menu a{
+    color: black;
+    background-image: url(images/menu-button.gif);
+    text-decoration: none;
+    text-decoration-color: aqua;
+    text-emphasis-style: sesame;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#menu a:hover{
+    background-image: url(images/menu-button-hover.gif);
+    color: firebrick;
+    font-style: oblique;
+}
+
+form{
+    
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+table th {
+   text-align: left;
+    background-color:coral;
+    color:currentColor;
+    padding: 4px 30px 4px 8px;
+    
+}
+
+table td {
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+    
+}
+table tr:nth-child(odd) td {
+    background-color: #e7edf0
+    
+}
+
+form{
+    background-color:darkgoldenrod;
+    
+}
